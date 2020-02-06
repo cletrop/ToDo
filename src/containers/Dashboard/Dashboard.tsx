@@ -1,4 +1,5 @@
 import * as React from 'react';
+import TodoList from '../TodoList/TodoList';
 // import { Todo } from '../../models/Todo';
 
 // export interface IDashboardProps extends Todo {
@@ -21,8 +22,7 @@ class Dashboard extends React.Component<IDashboardProps> {
         return (
             <div>
                 {this.props.message}
-
-                {/* <TodoItemsList /> */}
+                <TodoList />
             </div>
         );
     }
